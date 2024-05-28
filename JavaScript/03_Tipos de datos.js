@@ -19,6 +19,10 @@ console.log(objeto);
 function miFuncion() {}
 console.log(miFuncion);
 
+//Tipo de dato booleano
+var bandera = true;
+console.log(typeof bandera);
+
 //Tipo symbol
 var simbolo = Symbol("mi simbolo");
 console.log(simbolo);
