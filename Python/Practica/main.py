@@ -72,7 +72,7 @@ numero2 = int(input("Ingrese otro numero: "))
 print(type(numero1))
 resultado = numero1 + numero2
 print("El resultado de la suma es: ", resultado)
-'''
+
 # CLASE 04
 # OPERADORES ARITMETICOS
 operandoA = 8
@@ -158,3 +158,16 @@ print(resultado)
 resultado = a or b
 
 print(resultado)
+'''
+# CLASE 06
+# Estructura de control if
+condicion = False
+if condicion == True:
+    print('Condicion Verdadera')
+elif condicion == False:
+    print('Condicion Falsa')
+else:
+    print('Condicion sin especificar')
+
+# Operador ternario estructura if
+print('Condicion Verdadera') if condicion else print('Condicion Falsa')
