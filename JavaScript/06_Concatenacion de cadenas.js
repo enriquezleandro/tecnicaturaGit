@@ -24,5 +24,5 @@ juntos = 20 + 27 + nombre;
 console.log(juntos);
 
 //Tambien se puede concatenar de una forma simplificada
-nombre+=apellido;
-console.log(nombre)
+nombre += apellido;
+console.log(nombre);

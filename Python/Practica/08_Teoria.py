@@ -23,12 +23,12 @@ else:
     print('Fin del ciclo for')
 
 # Sentencia de salto continue
-#Aca no usamos la sentencia continue
+# Aca no usamos la sentencia continue
 for i in range(6):
     if i % 2 == 0:
         print(f'Valor: {i}')
 
-#Aca usamos la sentencia continue
+# Aca usamos la sentencia continue
 for i in range(6):
     if i % 2 != 0:
         continue

@@ -34,4 +34,4 @@ class Persona {
     this.apellido = "Enriquez";
   }
 }
-console.log(typeof Persona)
+console.log(typeof Persona);
