@@ -1,8 +1,9 @@
 import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        
-        //Declaramos las variables
+
+        // Declaramos las variables
         String nombre, aux;
         int id;
         double precio;
@@ -40,17 +41,3 @@ public class App {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
