@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
         // Impotamos la clase scanner
         final Scanner input = new Scanner(System.in);
 
@@ -79,6 +80,5 @@ public class App {
         System.out.println(nombreLibro + " #" + idLibro);
         System.out.println("Precio del libro: $" + precioLibro);
         System.out.println("El envio del libro es gratuito: " + envioGratuito);
-
     }
 }
