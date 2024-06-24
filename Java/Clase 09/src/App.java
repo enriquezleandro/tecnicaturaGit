@@ -27,8 +27,6 @@ public class App {
         // Mostramos el resultado en pantalla
         System.out.println("La sumatoria de las tres notas es: " + resultado);
 
-
-
         // EJERCICIO 6
         System.out.println("");
         System.out.println("EJERCICIO 6");
@@ -47,8 +45,6 @@ public class App {
         // Imprimir el resultado
         System.out.println("La cantidad de dinero que tienen entre los tres es: $" + total);
 
-
-        
         // EJERCICIO 7
         System.out.println("");
         System.out.println("EJERCICIO 7");
