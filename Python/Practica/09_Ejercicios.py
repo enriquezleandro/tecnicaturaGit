@@ -54,4 +54,3 @@ for i in range(10):
 print(f'El promedio de las notas del curso es: {sumnot/10}')
 print(f'La nota mas baja del curso es: {notaBaja}')
 
-# Todo va a estar bien :)

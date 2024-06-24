@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         // CLASE SCANNER
         Scanner input = new Scanner(System.in);
-
+System.out.println("Hola");
         // Utilizacion de la palabra reservada var, desde java 10 se usa eso para que
         // java identifique que tipo de dato es, sin nosotros estar determinandolo.
 
