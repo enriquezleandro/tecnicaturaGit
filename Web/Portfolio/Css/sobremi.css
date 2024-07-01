@@ -1,0 +1,53 @@
+.sobremi {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: black;
+}
+
+.container-sobremi {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  font-size: large;
+  margin: 8rem;
+}
+.img-perfil {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+/* Para celulares*/
+@media (max-with: 767px) {
+  .container-sobremi {
+    width: 100%;
+    margin: 0rem;
+  }
+  .sobremi {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+  }
+}
+
+/*Para tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sobremi {
+    width: 100%;
+  }
+}
+
+/*Para escritorio*/
+@media (min-width: 1024px) {
+  .sobremi {
+    width: 100%;
+  }
+  .container-sobremi-estudios {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+}

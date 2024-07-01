@@ -1,0 +1,60 @@
+.concursos {
+  width: 80%;
+  padding: 2rem;
+  background: var(--fondo-concursos);
+}
+.galeria-concursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 8rem;
+}
+/*.concursos{
+    background-color: rgb(rgb(224, 224, 224));
+    border:1px;
+    border-radius: 5px;
+    padding: 15px;
+    padding: 15px;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 5px;
+    text-align: center;
+}
+    */
+
+.concursos img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.concursos h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+concursos p {
+  margin: 10px 0;
+}
+concursos a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.concursos a:hover {
+  background-color: white;
+}
+@media (max-width: 767px) {
+  .concursos {
+    width: calc(100% - 80px);
+  }
+}
+
+@media (min-width: 768px) and(max-width: 1023px) {
+  .concursos {
+    width: calc(100% - 80px);
+  }
+}
+@media (min-width: 1024px) {
+  .concursos {
+    width: calc(80% - 40px);
+  }
+}
